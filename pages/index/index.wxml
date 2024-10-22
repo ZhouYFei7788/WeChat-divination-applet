@@ -1,0 +1,3 @@
+<view class="full-screen-container">
+  <image src="../../img/首页.png" class="full-screen-image" mode="aspectFill"></image>
+</view>

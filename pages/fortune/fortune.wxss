@@ -1,0 +1,26 @@
+.fortune-container {
+  padding: 20px;
+  background-color: #ffffff; /* 背景颜色 */
+  height: 100vh; /* 让容器填满屏幕 */
+}
+
+.fortune-basic-info {
+  margin-bottom: 20px; /* 与按钮之间的间距 */
+}
+
+.fortune-basic-info text {
+  display: block; /* 每条信息独占一行 */
+  margin-bottom: 10px; /* 信息间距 */
+  font-size: 18px; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+}
+
+.recharge-button {
+  background-color: #007aff; /* 按钮背景色 */
+  color: white; /* 字体颜色 */
+  padding: 10px; /* 按钮内边距 */
+  border: none; /* 去掉边框 */
+  border-radius: 5px; /* 圆角 */
+  font-size: 16px; /* 字体大小 */
+  cursor: pointer; /* 鼠标悬浮时的指针 */
+}

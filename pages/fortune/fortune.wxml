@@ -1,0 +1,10 @@
+<view class="fortune-container">
+  <view class="fortune-basic-info">
+    <text>今日运势：一切顺利！</text>
+    <text>财运：不错，宜投资。</text>
+    <text>爱情：与伴侣和睦相处。</text>
+  </view>
+  
+  <!-- 充值按钮 -->
+  <button class="recharge-button" bindtap="showMoreInfo">充值显示更多信息</button>
+</view>
