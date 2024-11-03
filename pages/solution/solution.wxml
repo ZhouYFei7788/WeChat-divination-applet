@@ -1,0 +1,107 @@
+<view class="fortune-container">
+  <!-- 背景图片  -->
+  <view class="fortune-bg">
+    <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/12.png" mode="aspectFill" />
+  </view>
+
+  <!-- 职场江湖 -->
+  <view class="fortune-test">
+    <!-- 职场图片 -->
+    <view class="workplace">
+      <image class="fortune-text-bg" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0003_文本域.png" />
+      <image class="fortune-text" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0001_职场.png" />
+    </view>
+    <!-- 江湖图片 -->
+    <image class="font1" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/江湖.png" mode="" />
+    <!-- 随意而成 -->
+    <image class="font2" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/随意而动.png" mode="" />
+    <!-- 横线 -->
+    <image class="line" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0002_横线.png" mode="" />
+    <!-- 飞鸟 -->
+    <image class="bird" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0004_飞鸟.png" mode="" />
+
+  </view>
+
+  <!-- 主体部分 -->
+  <view class="body">
+    <!-- 边框 -->
+    <image class="border" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/边框.png" mode="" />
+
+    <!-- 内容 -->
+    <view class="top">
+      <!-- 文字背景 -->
+      <image class="textBg" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/textare.png" mode="" />
+      <view class="textcenter">
+        <text class="title">南山师言: </text>
+        <text class="content">
+          此 为 <text class="overbold">利</text>  卦
+        </text>
+        <text class="content">
+          今 日 当 顺
+        </text>
+      </view>
+      <!-- 大师图片 -->
+      <image class="master" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/master.png" mode="" />
+      <!-- 彩条 -->
+      <image class="line2" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/彩条.png" mode="" />
+    </view>
+
+    <!-- 乾 -->
+    <view class="center">
+      <!-- 白色火焰 -->
+      <view class="centerTextBg">
+        <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/whitefire.png" mode=""/>
+        <text class="test">
+          乾
+        </text>
+      </view>
+      <!-- 文字 -->
+      <text> 元亨，利贞 </text>
+    </view>
+    <!-- bottom -->
+    <view class="bottom">
+      <view class="item">
+        <view class="before"></view>
+        <text>上九: 亢龙有悔</text>
+      </view>
+      <view class="item">
+        <view class="before"></view>
+        <text>上五: 飞龙在天，利见大人。</text>
+      </view>
+      <view class="item">
+        <view class="before"></view>
+        <text>九九: 或越在渊，无咎。</text>
+      </view>
+      <view class="item">
+        <view class="before"></view>
+        <text>九三: 龙战于野，其血玄黄。</text>
+      </view>
+      <view class="item">
+        <view class="before"></view>
+        <text>九二: 见龙在田，利见大人。</text>
+      </view>
+      <view class="item">
+        <view class="before"></view>
+        <text>初九: 潜龙勿用。</text>
+      </view>
+     
+      <view>用九: 见群龙无首，吉</view>
+    </view>
+
+    <!-- 请文字提示 -->
+    <view class="btn">
+      <view class="btnBg">
+        <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/rednav.png" mode=""/>
+        <text class="btnText">[随 易 行]</text>
+        <text class="money">0.009元/次</text>
+      </view>
+      <image class="young" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/year.png" mode=""/>
+    </view>
+  </view>
+  <!-- footer -->
+  <view class="footer">
+    <text>《南山易》: 用古合今 引领未来 </text>
+    <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/lin2.png" mode=""/>
+  </view>
+
+</view>

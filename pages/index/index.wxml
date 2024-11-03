@@ -1,0 +1,7 @@
+<view class="full-screen-container">
+  <image src="../../img/首页.png" class="full-screen-image" mode="aspectFill"></image>
+  <view class="bottom-right-container">
+    <navigator url="../pages/fortune/fortune.wxml" class="skip-button">跳过</navigator>
+    <text class="countdown-text">{{timeLeft}}</text> <!-- 倒计时显示在按钮后面 -->
+  </view>
+</view>

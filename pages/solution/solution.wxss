@@ -1,0 +1,308 @@
+.fortune-container {
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top);
+  /* 空出刘海屏的距离 */
+  height: 105vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 背景图片样式 */
+.fortune-container .fortune-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.fortune-container .fortune-bg image {
+  width: 100%;
+  height: 100%;
+  transform: scaleY(1.1);
+}
+
+/* top 区域 */
+.fortune-test {
+  box-sizing: border-box;
+  padding-left: 10rpx;
+  width: 100%;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+
+.fortune-test .workplace {
+  position: relative;
+  width: 240rpx;
+  height: 130rpx;
+}
+
+.fortune-test .fortune-text-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.fortune-test .fortune-text {
+  position: absolute;
+  top: 30rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180rpx;
+  height: 90rpx;
+}
+
+/* 江湖 */
+.fortune-test .font1 {
+  position: absolute;
+  top: 65rpx;
+  left: 270rpx;
+  width: 120rpx;
+  height: 60rpx;
+}
+
+/* 随意而成 */
+.fortune-test .font2 {
+  position: absolute;
+  top: 115rpx;
+  left: 440rpx;
+  width: 250rpx;
+  height: 60rpx;
+}
+
+/* 横线 */
+.fortune-test .line {
+  width: 100%;
+  height: 50rpx;
+}
+
+/* 鸟 */
+.fortune-test .bird {
+  position: absolute;
+  right: 10rpx;
+  bottom: -20rpx;
+  width: 200rpx;
+  height: 150rpx;
+}
+
+/* 主体部分 */
+.body {
+  width: 100%;
+  height: 75vh;
+  /* border: 2rpx solid #000; */
+  position: relative;
+  overflow: hidden;
+}
+
+/* 边框部分 */
+.body .border {
+  position: absolute;
+  top: -36rpx;
+  left: -138rpx;
+  width: 136vw;
+  height: 104%;
+}
+
+/* 文字背景 */
+.body .textBg {
+  position: absolute;
+  height: 280rpx;
+  top: 80rpx;
+  right: 60rpx;
+}
+
+/* 大师 */
+.body .master {
+  position: absolute;
+  top: 40rpx;
+  left: 30rpx;
+  width: 300rpx;
+  height: 320rpx;
+}
+
+/* 彩条 */
+.body .line2 {
+  position: absolute;
+  top: 360rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 40rpx;
+}
+
+/* 文字区域 */
+.body .textcenter {
+  position: absolute;
+  top: 140rpx;
+  right: 100rpx;
+  width: 300rpx;
+}
+.body .textcenter text {
+  font-family: "仓耳舒圆体";
+  font-size: 38rpx;
+  font-weight: 500;
+}
+.body .textcenter .title {
+  display: block;
+}
+.body .textcenter .content {
+  display: block;
+  text-indent: 2em;
+  line-height: 30rpx;
+  padding-left: 70rpx;
+}
+/* 加粗 */
+.body .textcenter .overbold {
+  color: red;
+  font-size: larger;
+  font-weight: 800;
+  text-shadow: 
+    0.5px 0.5px 0 #fff,   /* 右下 */
+   -0.5px 0.5px 0 #fff,   /* 左下 */
+    0.5px -0.5px 0 #fff,  /* 右上 */
+   -0.5px -0.5px 0 #fff;  /* 左上 */
+}
+
+
+/* cneter  部分*/
+.body .center {
+  width: 100%;
+  position: absolute;
+  top: 380rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.body .center .centerTextBg {
+  width: 160rpx;
+  height: 160rpx;
+  position: relative;
+}
+.body .center .centerTextBg image {
+  width: 100%;
+  height: 100%;
+}
+.body .center .centerTextBg .test {
+  display: block;
+  /* border: 1rpx solid #000; */
+  height: 90rpx;
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  transform: translate(-50%);
+  font-size: 90rpx;
+  font-weight: bold;
+  font-family: "仓耳舒圆体";
+  line-height: 30rpx;
+  /* text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4); 设置阴影 */
+  color: transparent; /* 让文字颜色透明 */
+  background: linear-gradient(45deg, #FFD700, #FFC107, #FFB14E, #FFD700); /* 线性渐变 */
+  background-clip: text;
+  -webkit-background-clip: text; /* 兼容 WebKit 内核浏览器 */
+  
+}
+.body .center > text {
+  margin-left: 40rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4); /* 设置阴影 */
+}
+
+/* body 的下半部分 */
+.body .bottom {
+  position: absolute;
+  left: 50%;
+  bottom: 170rpx;
+  transform: translateX(-50%);
+  width: 86%;
+  background: rgba(255, 255, 255, .4);
+  border-radius: 30rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.body .bottom .item {
+  margin-bottom: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.body .bottom .item .before {
+  width: 160rpx;
+  height: 40rpx;
+  background-color: rgb(107,233,245);
+  margin-right: 20rpx;
+}
+.body .bottom .item text {
+  font-weight: 500;
+  font-size: 30rpx;
+}
+.body .bottom > view {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+
+/* 按钮样式 */
+.body .btn {
+  position: absolute;
+  bottom: 40rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "仓耳舒圆体";
+  color: #fff;
+  font-weight: 600;
+}
+.body .btn .btnBg {
+  width: 300rpx;
+  height: 70rpx;
+  position: relative;
+  top: 180rpx;
+  right: 30rpx;
+  text-align: center;
+  
+}
+.body .btn .btnBg image {
+  width: 100%;
+  height: 100%;
+}
+.body .btn .btnBg .btnText{
+  display: block;
+  width: 250rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50rpx;
+  
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4); /* 设置阴影 */
+}
+.body .btn .btnBg .money {
+  color: rgb(169, 23, 19);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4); /* 设置阴影 */
+}
+.body .btn .young {
+  width: 140rpx;
+  height: 200rpx;
+  position: relative;
+  left: 300rpx;
+  bottom: 20rpx;
+}
+
+/* footer */
+.footer {
+  margin-top: 40rpx;
+  width: 100%;
+  text-align: center;
+}
+
+.footer text {
+  font-size: 36rpx;
+  color: #fff;
+}
+
+.footer image {
+  margin-top: 10rpx;
+  width: 80%;
+  height: 40rpx;
+}

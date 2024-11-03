@@ -1,0 +1,60 @@
+/* 页面容器 */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* 占卜按钮的样式 */
+.divination-button {
+  padding: 15px 30px;
+  background-color: #ffcc00;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.divination-button:active {
+  background-color: #ffaa00;
+}
+/* 设置全屏图片的容器 */
+.full-screen-container {
+  position: fixed;  /* 使用 fixed 定位 */
+  top: 0;
+  left: 0;
+  width: 100vw;   /* 100% 宽度 */
+  height: 100vh;  /* 100% 高度 */
+  overflow: hidden; /* 禁止溢出，禁止滑动 */
+}
+
+/* 图片全屏展示 */
+.full-screen-image {
+  width: 100%;     /* 100% 宽度 */
+  height: 100%;    /* 100% 高度，彻底铺满 */
+  object-fit: cover; /* 保持图片比例，铺满容器 */
+}
+
+/* 跳过按钮 */
+.skip-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px; 
+    width: 100px; 
+    height: 40px;
+    line-height: 40px;
+    background-color: #393f39;
+    color: white; 
+    text-align: center; 
+    border-radius: 20px; 
+}
+
+  /* 跳过时间文本 */
+.countdown-text {
+    margin-left: 10px; /* 在按钮和倒计时文本之间添加一些空间 */
+    color: rgb(247, 243, 243);
+    font-size: 14px;
+}

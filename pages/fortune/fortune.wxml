@@ -1,0 +1,61 @@
+<view class="fortune-container">
+  <!-- 背景图片  -->
+  <view class="fortune-bg">
+    <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/12.png" mode="aspectFill" />
+  </view>
+
+  <!-- 职场江湖 -->
+  <view class="fortune-test">
+    <!-- 职场图片 -->
+    <view class="workplace">
+      <image class="fortune-text-bg" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0003_文本域.png" />
+      <image class="fortune-text" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0001_职场.png" />
+    </view>
+    <!-- 江湖图片 -->
+    <image class="font1" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/江湖.png" mode="" />
+    <!-- 随意而成 -->
+    <image class="font2" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/随意而动.png" mode="" />
+    <!-- 横线 -->
+    <image class="line" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0002_横线.png" mode="" />
+    <!-- 飞鸟 -->
+    <image class="bird" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/09_0004_飞鸟.png" mode="" />
+
+  </view>
+
+  <!-- 主体部分 -->
+  <view class="body">
+    <!-- 边框 -->
+    <image class="border" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/边框.png" mode="" />
+
+    <!-- 内容 -->
+    <view class="top">
+      <!-- 文字背景 -->
+      <image class="textBg" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/textare.png" mode="" />
+      <view class="textcenter">
+        <text class="title">南山师言: </text>
+        <text class="content">对《易经》中的道理，当深究之，并践行之；对其所占吉凶悔吝，应该以游戏之心待之。 </text>
+      </view>
+      <!-- 大师图片 -->
+      <image class="master" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/master.png" mode="" />
+      <!-- 彩条 -->
+      <image class="line2" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/彩条.png" mode="" />
+    </view>
+
+    <!-- bottom -->
+    <view class="bottom">
+    <!-- 龟壳 -->
+      <image wx:if="{{!isPlaying}}" bind:tap="playGif" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/13.png" mode=""/>
+      <image wx:else src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/除背景的燃烧.gif" mode=""/>
+    </view>
+    <!-- 请轻触龟甲提示 -->
+    <view class="btn">
+      请轻触龟甲
+    </view>
+  </view>
+  <!-- footer -->
+  <view class="footer">
+    <text>《南山易》: 用古合今 引领未来 </text>
+    <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/lin2.png" mode=""/>
+  </view>
+
+</view>

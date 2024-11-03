@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fortune/fortune",
+    "pages/solution/solution"
+  ],
+  "window": {
+    "navigationBarTitleText": "占卜",
+    "navigationStyle": "custom"
+  }
+}

@@ -1,0 +1,9 @@
+/* 全局样式 */
+@font-face {
+  font-family: "仓耳舒圆体";
+  src: url("https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/CangErShuYuanTiW02-2.ttf");
+}
+page {
+ 
+  background-color: #f8f8f8;
+}
