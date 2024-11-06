@@ -43,19 +43,25 @@
 
     <!-- bottom -->
     <view class="bottom">
-    <!-- 龟壳 -->
-      <image wx:if="{{!isPlaying}}" bind:tap="playGif" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/13.png" mode=""/>
-      <image wx:else src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/除背景的燃烧.gif" mode=""/>
+      <!-- 龟壳 -->
+      <image bind:tap="playGif" src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/13.png" mode="" />
+
     </view>
     <!-- 请轻触龟甲提示 -->
     <view class="btn">
       请轻触龟甲
     </view>
   </view>
+
+  <!-- 燃烧动画 -->
+  <view class="fire" wx:if="{{isPlaying}}">
+    <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/除背景的燃烧.gif" mode="" />
+  </view>
+  
   <!-- footer -->
   <view class="footer">
     <text>《南山易》: 用古合今 引领未来 </text>
-    <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/lin2.png" mode=""/>
+    <image src="https://mp-cfd89d00-52e6-4499-ba9a-72e97b4e2579.cdn.bspapp.com/zhanbu/lin2.png" mode="" />
   </view>
 
 </view>

@@ -132,9 +132,27 @@
   display: block;
 }
 .body .textcenter .content {
-  margin-top: 20rpx;
+  margin-top: 10rpx;
   display: block;
   text-indent: 2em;
+}
+
+.fire {
+  position: fixed;
+  top: 0rpx;
+  left: 0rpx;
+  z-index: 10;
+  width: 100vh;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+}
+.fire image {
+  width: 600rpx;
+  height: 700rpx;
+  position: relative;
+  top: 50%;
+  left: 23%;
+  transform: translate(-50%, -50%);
 }
 
 /* body 的下班部分 */

@@ -17,7 +17,7 @@ Page({
         wx.navigateTo({
           url: '/pages/solution/solution'
         });
-      }, 5000); // 7000 毫秒后停止播放（可根据实际 GIF 的时长调整）
+      }, 4800); // 7000 毫秒后停止播放（可根据实际 GIF 的时长调整）
       // 清空定时器
       this.data.timr = 0
         
